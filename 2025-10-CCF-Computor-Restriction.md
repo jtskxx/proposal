@@ -55,7 +55,7 @@ typedef ProposalAndVotingByComputors<100> ProposersAndVotersT;
 
 ## Message to Builders
 
-For any determined builder, we, the community, the computors and core developers are always looking forward to build new things on Qubic and we are always here to listen to your ideas and fund your project if there's a real positive impact on Qubic. Feel free to contact any moderators or core developers, we are always here to help.
+For any determined builder looking to contribute to Qubic, computors are always looking for innovation and are open to sponsoring quality projects. If you have an idea that will have a real positive impact on the ecosystem, reach out to computors to discuss your project.
 
 ## Conclusion
 
