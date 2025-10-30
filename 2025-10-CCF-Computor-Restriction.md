@@ -34,6 +34,25 @@ By restricting proposal creation to computors:
 - Higher accountability and proposal quality
 - Elimination of spam and frivolous funding requests
 
+ ## Implementation
+
+This is a smart contract change. The code pull request is available here:  
+https://github.com/qubic/core/pull/578
+
+### Code Change
+
+**Current code:**
+```cpp
+// Anyone can set a proposal, but only computors have right vote.
+typedef ProposalByAnyoneVotingByComputors<100> ProposersAndVotersT;
+```
+
+**New code:**
+```cpp
+// Only computors can set a proposal and vote. Up to 100 proposals are supported simultaneously.
+typedef ProposalAndVotingByComputors<100> ProposersAndVotersT;
+```
+
 ## Message to Builders
 
 For any determined builder, we, the community, the computors and core developers are always looking forward to build new things on Qubic and we are always here to listen to your ideas and fund your project if there's a real positive impact on Qubic. Feel free to contact any moderators or core developers, we are always here to help.
